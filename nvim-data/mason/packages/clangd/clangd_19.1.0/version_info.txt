@@ -1,0 +1,27 @@
+winlibs personal build version gcc-14.2.0-llvm-19.1.1-mingw-w64ucrt-12.0.0-r2
+
+This is the winlibs Intel/AMD 64-bit standalone build of:
+- GCC 14.2.0
+- GDB 15.2
+- LLVM/Clang/LLD/LLDB 19.1.1
+- MinGW-w64 12.0.0 (linked with ucrt)
+- GNU Binutils 2.43.1
+- GNU Make 4.4.1
+- PExports 0.47
+- dos2unix 7.5.2
+- Yasm 1.3.0
+- NASM 2.16.01
+- JWasm 2.12pre
+- ccache 4.10.2
+- CMake 3.30.4
+- ninja 1.12.1
+- Doxygen 1.12.0
+- Universal Ctags 6.1.0
+- Cppcheck 2.15.0
+
+Thread model: posix
+Runtime library: UCRT (Windows 10 or higher, or when [Update for Universal C Runtime](https://support.microsoft.com/en-us/topic/update-for-universal-c-runtime-in-windows-c0514201-7fe6-95a3-b0a5-287930f3560c) is installed on older Windows versions, not supported on systems older than Windows 7 SP1 and Windows Server 2008 R2 SP1)
+
+This build was compiled with GCC 14.2.0 and packaged on 2024-10-05.
+
+Please check out https://winlibs.com/ for the latest personal build.

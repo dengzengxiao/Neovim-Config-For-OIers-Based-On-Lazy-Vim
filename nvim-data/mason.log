@@ -1,0 +1,33 @@
+[INFO  2024/11/2 16:02:13] ...m-data/lazy/mason.nvim/lua/mason-core/installer/init.lua:184: Executing installer for Package(name=stylua) {}
+[INFO  2024/11/2 16:02:13] ...m-data/lazy/mason.nvim/lua/mason-core/installer/init.lua:184: Executing installer for Package(name=shfmt) {}
+[INFO  2024/11/2 16:02:19] ...m-data/lazy/mason.nvim/lua/mason-core/installer/init.lua:245: Installation succeeded for Package(name=stylua)
+[INFO  2024/11/2 16:02:30] ...m-data/lazy/mason.nvim/lua/mason-core/installer/init.lua:245: Installation succeeded for Package(name=shfmt)
+[INFO  2024/11/2 16:09:38] ...m-data/lazy/mason.nvim/lua/mason-core/installer/init.lua:184: Executing installer for Package(name=lua-language-server) {}
+[INFO  2024/11/2 16:09:45] ...m-data/lazy/mason.nvim/lua/mason-core/installer/init.lua:245: Installation succeeded for Package(name=lua-language-server)
+[INFO  2024/11/2 21:38:32] ...m-data/lazy/mason.nvim/lua/mason-core/installer/init.lua:184: Executing installer for Package(name=cpptools) {}
+[INFO  2024/11/2 21:38:50] ...m-data/lazy/mason.nvim/lua/mason-core/installer/init.lua:245: Installation succeeded for Package(name=cpptools)
+[INFO  2024/11/2 21:38:58] ...m-data/lazy/mason.nvim/lua/mason-core/installer/init.lua:184: Executing installer for Package(name=clangd) {}
+[INFO  2024/11/2 21:39:08] ...m-data/lazy/mason.nvim/lua/mason-core/installer/init.lua:245: Installation succeeded for Package(name=clangd)
+[INFO  2024/11/3 14:06:57] ...m-data/lazy/mason.nvim/lua/mason-core/installer/init.lua:184: Executing installer for Package(name=cpptools) {}
+[ERROR 2024/11/3 14:07:18] ...m-data/lazy/mason.nvim/lua/mason-core/installer/init.lua:249: Installation failed for Package(name=cpptools) error="Installation was aborted."
+[INFO  2024/11/3 15:10:00] ...m-data/lazy/mason.nvim/lua/mason-core/installer/init.lua:184: Executing installer for Package(name=cpptools) {}
+[INFO  2024/11/3 15:10:11] ...m-data/lazy/mason.nvim/lua/mason-core/installer/init.lua:245: Installation succeeded for Package(name=cpptools)
+[INFO  2024/11/3 15:10:49] ...m-data/lazy/mason.nvim/lua/mason-core/installer/init.lua:184: Executing installer for Package(name=cpptools) {}
+[INFO  2024/11/3 15:11:03] ...m-data/lazy/mason.nvim/lua/mason-core/installer/init.lua:184: Executing installer for Package(name=clangd) {}
+[INFO  2024/11/3 15:11:10] ...m-data/lazy/mason.nvim/lua/mason-core/installer/init.lua:245: Installation succeeded for Package(name=clangd)
+[ERROR 2024/11/3 15:11:27] ...m-data/lazy/mason.nvim/lua/mason-core/installer/init.lua:249: Installation failed for Package(name=cpptools) error="Installation was aborted."
+[INFO  2024/11/3 15:14:14] ...m-data/lazy/mason.nvim/lua/mason-core/installer/init.lua:184: Executing installer for Package(name=clangd) {}
+[ERROR 2024/11/3 15:14:55] ...m-data/lazy/mason.nvim/lua/mason-core/installer/init.lua:249: Installation failed for Package(name=clangd) error="Installation was aborted."
+[INFO  2024/11/4 17:19:58] ...m-data/lazy/mason.nvim/lua/mason-core/installer/init.lua:184: Executing installer for Package(name=clangd) {}
+[INFO  2024/11/4 17:20:05] ...m-data/lazy/mason.nvim/lua/mason-core/installer/init.lua:245: Installation succeeded for Package(name=clangd)
+[INFO  2024/11/4 17:21:45] ...m-data/lazy/mason.nvim/lua/mason-core/installer/init.lua:184: Executing installer for Package(name=clangd) {}
+[ERROR 2024/11/4 17:21:53] ...m-data/lazy/mason.nvim/lua/mason-core/installer/init.lua:249: Installation failed for Package(name=clangd) error='...ta/Local/nvim-data/lazy/mason.nvim/lua/mason-core/fs.lua:53: rmrf: Could not remove directory "C:\\\\Users\\\\Shawn\\\\AppData\\\\Local\\\\nvim-data\\\\mason\\\\packages\\\\clangd".'
+[INFO  2024/11/4 17:28:36] ...m-data/lazy/mason.nvim/lua/mason-core/installer/init.lua:184: Executing installer for Package(name=clangd) {}
+[INFO  2024/11/4 17:28:43] ...m-data/lazy/mason.nvim/lua/mason-core/installer/init.lua:245: Installation succeeded for Package(name=clangd)
+[INFO  2024/11/4 17:29:06] ...m-data/lazy/mason.nvim/lua/mason-core/installer/init.lua:184: Executing installer for Package(name=clang-format) {}
+[ERROR 2024/11/4 17:29:06] ...m-data/lazy/mason.nvim/lua/mason-core/providers/init.lua:81: Provider "pypi" "get_supported_python_versions" failed: "Package does not specify supported Python versions."
+[ERROR 2024/11/4 17:29:07] ...m-data/lazy/mason.nvim/lua/mason-core/providers/init.lua:81: Provider "pypi" "get_supported_python_versions" failed: "Package does not specify supported Python versions."
+[ERROR 2024/11/4 17:29:07] ...m-data/lazy/mason.nvim/lua/mason-core/providers/init.lua:92: No provider implementation succeeded for pypi.get_supported_python_versions
+[INFO  2024/11/4 17:29:13] ...m-data/lazy/mason.nvim/lua/mason-core/installer/init.lua:245: Installation succeeded for Package(name=clang-format)
+[INFO  2024/11/4 17:44:52] ...m-data/lazy/mason.nvim/lua/mason-core/installer/init.lua:184: Executing installer for Package(name=clangd) {}
+[INFO  2024/11/4 17:44:59] ...m-data/lazy/mason.nvim/lua/mason-core/installer/init.lua:245: Installation succeeded for Package(name=clangd)
