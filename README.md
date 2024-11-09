@@ -4,6 +4,8 @@
 
 ## Caution: This is only my on config
 
+[Chinese Version](https://github.com/dengzengxiao/Neovim-Config-For-OIers-Based-On-Lazy-Vim/blob/main/README-CN.md)
+
 Used：
 
 CompetiTest: https://github.com/xeluxee/competitest.nvim
