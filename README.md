@@ -104,5 +104,6 @@ Use Ctrl + H 和 Ctrl + L (Normal Mode) to switch between windows for the three 
 `:CompetiTest receive testcases`   Receive testcases from `Competitive Companion` ，port is `12345`
 
 ## More please reference:
-Neovim 教程：https://neovim.io/doc/
-LazyVim 官方文档：https://www.lazyvim.org/
+Neovim tutor：https://neovim.io/doc/
+
+LazyVim official website：https://www.lazyvim.org/
