@@ -1,8 +1,8 @@
 # Neovim Config For OIers Based On Lazy Vim
 
-## Now with only C++ support
+## 现在只有 C++ 支持
 
-## Caution: This is only my on config
+## 注：这个项目仅为个人配置
 
 使用：
 
