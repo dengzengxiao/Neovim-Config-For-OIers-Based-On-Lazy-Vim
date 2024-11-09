@@ -65,8 +65,6 @@ hjkl -> 左下上右
 
 常用命令：
 
-:set cindent shiftwidth=4 设置文件缩进为 4 个空格，每次打开文件都要设置
-
 :wq 保存并退出
 
 :Lazy 打开 lazy.nvim UI
