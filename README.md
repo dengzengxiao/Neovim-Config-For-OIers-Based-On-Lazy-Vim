@@ -4,7 +4,7 @@
 
 ## Caution: This is only my on config
 
-使用：
+Used：
 
 CompetiTest: https://github.com/xeluxee/competitest.nvim
 
@@ -16,76 +16,68 @@ Lazyvim: https://github.com/LazyVim/LazyVim
 
 Neovide: https://github.com/neovide/neovide
 
-## 使用前请安装 Lazyvim, Neovim, Wezterm 和 Neovide
+## Install `Lazyvim, Neovim, Wezterm and Neovide` before use
 
-## 如何配置：
-.wezterm.lua 为 wezterm 配置文件，放在 C:\Users\Name\ 下
+## Installation：
+1. Download .zip file in the latest release
+2. Drag .wezterm.lua to C:\Users\Name\ 
+3. Place nvim and nvim-data folers in C:\Users\Name\AppData\Local and replace the original files
+4. Install the Competitive_Companion_2.56.0.crx browser extension
+5. Customize the extension so that the port is 12345
 
-将 nvim 和 nvim-data 文件夹放入 C:\Users\Name\AppData\Local 下，并替换原来的文件
+## Usage：
+1. Open Wezterm
 
-配置: Competitive Companion：
+2. Navigate to youor working directory
 
-打开 Edge 拓展中的 “开发者模式”
+3. Input `neovide`
 
-将目录中的 Competitive_Companion_2.56.0.crx 拖入 Edge
+4. Use `Find File` or `f` to find files
+   
+5. Happy Coding!
+   
+## Useful Hotkeys：
+Caution: You have to be in "Normal Mode" to do use these hotkeys
 
-打开拓展选项，将 Custom ports 改为 12345
+`0` -> To the start of the line
 
-快捷键：Edge 拓展 -> 键盘快捷方式 -> 往下翻找到 Competitive Companion，输入快捷键
+`$` -> To the end of the line
 
-## 使用：
-打开 Wezterm
+`ggVG` -> Select the whole file
 
-导航到你的项目目录
+`v` -> Open Visual Mode, move your cursor to select text
 
-输入 `neovide`
+`V` -> Open Visual Mode, move your cursor up and down to select lines
 
-用 `Find File` 或 `f` 打开文件
+`gcc` -> Comment this line
 
-愉快的编程！
+`y` -> Copy the selected text
 
-## 常用快捷键：
-注意，都在 `Normal` 模式下
+`p` -> Paste
 
-`0` -> 到行首
+`d` -> Delete the selected text
 
-`$` -> 到行末
+`dd` -> Delete the whole line
 
-`ggVG` -> 选中整个文件
+`s` -> Open Flash Mode to navigate quickly on the page
 
-`v` -> 打开 Visual Mode, 移动光标以选择文本
+`/` -> Vim Search
 
-`V` -> 打开 Visual Mode, 上下移动光标以选择整行
+`Space + e` -> Open Sidebar，use cursor to select file
 
-`gcc` -> 注释这一行
+`hjkl` -> Left, Down, Up, Right
 
-`y` -> 复制选中的文本
+## Useful commands：
 
-`p` -> 粘贴
+`:wq` Save and exit
 
-`d` -> 删除
+`:Lazy` Open lazy.nvim UI
 
-`dd` -> 删除整行
+`:Mason` Open mason.nvim UI
 
-`s` -> 打开 Flash Mode，用于定位本页能看见的文本
+`:CompetiTest`
 
-`/` -> Vim 自带的搜索，搜索文本
-
-`Space + e` -> 打开 Sidebar，用光标选定文件打开
-
-`hjkl` -> 左下上右
-
-常用命令：
-
-`:wq` 保存并退出
-
-`:Lazy` 打开 lazy.nvim UI
-
-`:Mason` 打开 mason.nvim UI
-
-`:CompetiTest` 系列 
-
-注意，如果用我的配置，文件结构应如下：
+Caution: if you use my config, your file tree should be like this:
 
 ```
 cpp
@@ -99,18 +91,18 @@ cpp
 └─ ...
 ```
 
-`:CompetiTest run` 		运行 testcases 左边的用 j 和 k 切换样例
+`:CompetiTest run` 		Run testcases, use j and k to switch testcases
 
-`:CompetiTest add_testcase` 	新建样例
+`:CompetiTest add_testcase` 	Create testcase
 
-`:CompetiTest delete_testcase` 	删除样例
+`:CompetiTest delete_testcase` 	Delete testcase
 
-`:CompetiTest edit_testcase`	编辑样例
+`:CompetiTest edit_testcase`	Edit testcase
 
-这三种操作用 Ctrl + H 和 Ctrl + L (Normal Mode) 来切换窗口
+Use Ctrl + H 和 Ctrl + L (Normal Mode) to switch between windows for the three commands listed above
 
-`:CompetiTest receive testcases`   从 `Competitive Companion` 接受样例，端口为 `12345`
+`:CompetiTest receive testcases`   Receive testcases from `Competitive Companion` ，port is `12345`
 
-更多请参考:
+## More please reference:
 Neovim 教程：https://neovim.io/doc/
 LazyVim 官方文档：https://www.lazyvim.org/
