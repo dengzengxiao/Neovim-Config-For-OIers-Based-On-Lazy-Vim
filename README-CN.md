@@ -112,5 +112,7 @@ cpp
 `:CompetiTest receive testcases`   从 `Competitive Companion` 接受样例，端口为 `12345`
 
 更多请参考:
+
 Neovim 教程：https://neovim.io/doc/
+
 LazyVim 官方文档：https://www.lazyvim.org/
