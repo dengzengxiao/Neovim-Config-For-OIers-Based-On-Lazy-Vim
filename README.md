@@ -87,7 +87,7 @@ Neovide: https://github.com/neovide/neovide
 
 注意，如果用我的配置，文件结构应如下：
 
-`
+```
 cpp
 
 ├─executables 				// 可执行文件
@@ -97,7 +97,7 @@ cpp
 ├─A.cpp
 
 └─ ...
-`
+```
 
 `:CompetiTest run` 		运行 testcases 左边的用 j 和 k 切换样例
 
