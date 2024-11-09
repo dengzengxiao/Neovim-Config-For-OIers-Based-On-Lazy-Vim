@@ -1,5 +1,9 @@
 -- bootstrap lazy.nvim, LazyVim and your plugins
 
+if vim.g.neovide then
+    vim.o.guifont = "Fira Code:h16"
+end
+
 require("config.lazy")
 require("competitest").setup({
     compile_command = {
