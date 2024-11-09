@@ -69,11 +69,17 @@ Neovide: https://github.com/neovide/neovide
 
 `s` -> 打开 Flash Mode，用于定位本页能看见的文本
 
-`/` -> Vim 自带的搜索，搜索文本
+`/` -> Vim 自带的搜索，用 n 切换到下一个结果, 用 N 切换到上一个
 
 `Space + e` -> 打开 Sidebar，用光标选定文件打开
 
 `hjkl` -> 左下上右
+
+`w` -> 移动到下一个单词的开头
+
+`b` -> 移动到上一个单词的开头
+
+`e` -> 移动到当前单词的结尾
 
 常用命令：
 
