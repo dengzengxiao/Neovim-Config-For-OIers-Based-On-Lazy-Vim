@@ -63,11 +63,17 @@ Caution: You have to be in "Normal Mode" to do use these hotkeys
 
 `s` -> Open Flash Mode to navigate quickly on the page
 
-`/` -> Vim Search
+`/` -> Vim Search, use `n` to toggle next result, use `N` to toggle last result
 
 `Space + e` -> Open Sidebar，use cursor to select file
 
 `hjkl` -> Left, Down, Up, Right
+
+`w` -> Move to the start of the next word
+
+`b` -> Move to the start of the last word
+
+`e` -> Move to the end of the current word
 
 ## Useful commands：
 
