@@ -705,7 +705,7 @@
       "LSP"
     ],
     "source": {
-      "id": "pkg:pypi/basedpyright@1.20.0"
+      "id": "pkg:pypi/basedpyright@1.21.0"
     },
     "schemas": {
       "lsp": "vscode:https://raw.githubusercontent.com/DetachHead/basedpyright/v{{version}}/packages/vscode-pyright/package.json"
@@ -839,7 +839,7 @@
       "LSP"
     ],
     "source": {
-      "id": "pkg:github/Azure/bicep@v0.30.23",
+      "id": "pkg:github/Azure/bicep@v0.31.34",
       "asset": {
         "file": "vscode-bicep.vsix"
       }
@@ -1294,7 +1294,7 @@
       "Formatter"
     ],
     "source": {
-      "id": "pkg:npm/%40sap/cds-lsp@8.4.2"
+      "id": "pkg:npm/%40sap/cds-lsp@8.4.3"
     },
     "bin": {
       "cds-lsp": "npm:cds-lsp",
@@ -1990,7 +1990,7 @@
       "LSP"
     ],
     "source": {
-      "id": "pkg:github/github/codeql-cli-binaries@v2.19.2",
+      "id": "pkg:github/github/codeql-cli-binaries@v2.19.3",
       "asset": [
         {
           "target": [
@@ -2460,7 +2460,7 @@
       "Linter"
     ],
     "source": {
-      "id": "pkg:npm/cspell@8.15.7"
+      "id": "pkg:npm/cspell@8.16.0"
     },
     "bin": {
       "cspell": "npm:cspell"
@@ -2776,7 +2776,7 @@
       "DAP"
     ],
     "source": {
-      "id": "pkg:pypi/debugpy@1.8.7"
+      "id": "pkg:pypi/debugpy@1.8.8"
     },
     "bin": {
       "debugpy": "pyvenv:debugpy",
@@ -2819,7 +2819,7 @@
       "Runtime"
     ],
     "source": {
-      "id": "pkg:github/denoland/deno@v2.0.4",
+      "id": "pkg:github/denoland/deno@v2.0.5",
       "asset": [
         {
           "target": "darwin_arm64",
@@ -2990,7 +2990,7 @@
       "Linter"
     ],
     "source": {
-      "id": "pkg:pypi/djlint@1.36.0"
+      "id": "pkg:pypi/djlint@1.36.1"
     },
     "bin": {
       "djlint": "pypi:djlint"
@@ -3498,7 +3498,7 @@
       "LSP"
     ],
     "source": {
-      "id": "pkg:github/WhatsApp/erlang-language-platform@2024-10-08",
+      "id": "pkg:github/WhatsApp/erlang-language-platform@2024-11-07",
       "asset": [
         {
           "target": "linux_x64_gnu",
@@ -3538,7 +3538,7 @@
       "LSP"
     ],
     "source": {
-      "id": "pkg:npm/%40ember-tooling/ember-language-server@2.30.3"
+      "id": "pkg:npm/%40ember-tooling/ember-language-server@2.30.4"
     },
     "bin": {
       "ember-language-server": "npm:ember-language-server"
@@ -4248,7 +4248,7 @@
     "languages": [],
     "categories": [],
     "source": {
-      "id": "pkg:github/cli/cli@v2.60.1",
+      "id": "pkg:github/cli/cli@v2.61.0",
       "asset": [
         {
           "target": "darwin_x64",
@@ -6187,7 +6187,7 @@
       "LSP"
     ],
     "source": {
-      "id": "pkg:golang/github.com/wader/jq-lsp@v0.1.4"
+      "id": "pkg:golang/github.com/wader/jq-lsp@v0.1.5"
     },
     "bin": {
       "jq-lsp": "golang:jq-lsp"
@@ -6494,7 +6494,7 @@
       "Linter"
     ],
     "source": {
-      "id": "pkg:github/kcl-lang/kcl@v0.10.7",
+      "id": "pkg:github/kcl-lang/kcl@v0.10.8",
       "asset": [
         {
           "target": "darwin_x64",
@@ -6648,7 +6648,7 @@
       "Linter"
     ],
     "source": {
-      "id": "pkg:github/pinterest/ktlint@1.4.0",
+      "id": "pkg:github/pinterest/ktlint@1.4.1",
       "asset": [
         {
           "target": "unix",
@@ -7444,7 +7444,7 @@
       "LSP"
     ],
     "source": {
-      "id": "pkg:github/mathworks/MATLAB-language-server@2245fbecbe4059f692616f868b4d7fc9e61a0d43",
+      "id": "pkg:github/mathworks/MATLAB-language-server@bb6f79e976b95abe4d767f626744948cf138622e",
       "build": {
         "run": "npm install\nnpm run package\n"
       }
@@ -8808,7 +8808,7 @@
       "LSP"
     ],
     "source": {
-      "id": "pkg:github/phpactor/phpactor@2024.06.30.0",
+      "id": "pkg:github/phpactor/phpactor@2024.11.05.0",
       "asset": {
         "file": "phpactor.phar"
       }
@@ -8900,7 +8900,7 @@
       "Linter"
     ],
     "source": {
-      "id": "pkg:github/phpstan/phpstan@1.12.7",
+      "id": "pkg:github/phpstan/phpstan@1.12.8",
       "asset": {
         "file": "phpstan.phar"
       }
@@ -9080,7 +9080,7 @@
       "Formatter"
     ],
     "source": {
-      "id": "pkg:github/lkrms/pretty-php@v0.4.74",
+      "id": "pkg:github/lkrms/pretty-php@v0.4.75",
       "asset": {
         "file": "pretty-php.phar"
       }
@@ -9103,7 +9103,7 @@
       "LSP"
     ],
     "source": {
-      "id": "pkg:npm/%40prisma/language-server@5.21.1"
+      "id": "pkg:npm/%40prisma/language-server@5.22.0"
     },
     "bin": {
       "prisma-language-server": "npm:prisma-language-server"
@@ -9622,7 +9622,7 @@
       "LSP"
     ],
     "source": {
-      "id": "pkg:npm/pyright@1.1.387"
+      "id": "pkg:npm/pyright@1.1.388"
     },
     "schemas": {
       "lsp": "vscode:https://raw.githubusercontent.com/microsoft/pyright/{{version}}/packages/vscode-pyright/package.json"
@@ -10032,7 +10032,7 @@
       "Linter"
     ],
     "source": {
-      "id": "pkg:golang/github.com/mgechev/revive@v1.4.0"
+      "id": "pkg:golang/github.com/mgechev/revive@v1.5.0"
     },
     "bin": {
       "revive": "golang:revive"
@@ -10183,7 +10183,7 @@
       "LSP"
     ],
     "source": {
-      "id": "pkg:gem/ruby-lsp@0.21.2"
+      "id": "pkg:gem/ruby-lsp@0.21.3"
     },
     "bin": {
       "ruby-lsp": "gem:ruby-lsp"
@@ -10590,7 +10590,7 @@
       "Linter"
     ],
     "source": {
-      "id": "pkg:pypi/semgrep@1.95.0",
+      "id": "pkg:pypi/semgrep@1.96.0",
       "supported_platforms": [
         "unix"
       ]
@@ -10999,7 +10999,7 @@
       "LSP"
     ],
     "source": {
-      "id": "pkg:github/snyk/snyk-ls@v20241105.073840",
+      "id": "pkg:github/snyk/snyk-ls@v20241106.122759",
       "asset": [
         {
           "target": "darwin_x64",
@@ -11359,7 +11359,7 @@
       "LSP"
     ],
     "source": {
-      "id": "pkg:gem/sorbet@0.5.11635",
+      "id": "pkg:gem/sorbet@0.5.11641",
       "supported_platforms": [
         "unix"
       ]
@@ -11385,7 +11385,7 @@
       "LSP"
     ],
     "source": {
-      "id": "pkg:pypi/sourcery@1.23.0"
+      "id": "pkg:pypi/sourcery@1.24.0"
     },
     "schemas": {
       "lsp": "vscode:https://raw.githubusercontent.com/swift-server/vscode-swift/main/package.json"
@@ -12770,7 +12770,7 @@
       "Linter"
     ],
     "source": {
-      "id": "pkg:github/trufflesecurity/trufflehog@v3.83.2",
+      "id": "pkg:github/trufflesecurity/trufflehog@v3.83.5",
       "asset": [
         {
           "target": "darwin_x64",
@@ -12843,7 +12843,7 @@
       "LSP"
     ],
     "source": {
-      "id": "pkg:npm/%40typespec/compiler@0.61.2"
+      "id": "pkg:npm/%40typespec/compiler@0.62.0"
     },
     "bin": {
       "tsp-server": "npm:tsp-server"
@@ -12863,7 +12863,7 @@
       "Formatter"
     ],
     "source": {
-      "id": "pkg:composer/vincentlanglet/twig-cs-fixer@3.1.0"
+      "id": "pkg:composer/vincentlanglet/twig-cs-fixer@3.3.1"
     },
     "bin": {
       "twig-cs-fixer": "composer:twig-cs-fixer"
@@ -13009,7 +13009,7 @@
       "Linter"
     ],
     "source": {
-      "id": "pkg:github/crate-ci/typos@v1.27.0",
+      "id": "pkg:github/crate-ci/typos@v1.27.2",
       "asset": [
         {
           "target": "darwin_x64",
@@ -13411,7 +13411,7 @@
       "Linter"
     ],
     "source": {
-      "id": "pkg:github/errata-ai/vale@v3.8.0",
+      "id": "pkg:github/errata-ai/vale@v3.9.0",
       "asset": [
         {
           "target": "darwin_x64",
@@ -14225,7 +14225,7 @@
       "LSP"
     ],
     "source": {
-      "id": "pkg:github/bbannier/zeek-language-server@v0.58.1",
+      "id": "pkg:github/bbannier/zeek-language-server@v0.59.0",
       "asset": [
         {
           "target": "linux_x64_gnu",

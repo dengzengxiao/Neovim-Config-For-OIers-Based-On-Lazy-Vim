@@ -1,0 +1,1 @@
+ERR 2024-11-09T11:32:00.153 nvim.26752.0 chan_close_with_error:561: RPC: ch 1 (type=1) returned a response with an unknown request id 1. Ensure the client is properly synchronized
