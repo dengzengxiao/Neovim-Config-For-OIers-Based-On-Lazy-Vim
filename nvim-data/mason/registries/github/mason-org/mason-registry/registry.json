@@ -2819,7 +2819,7 @@
       "Runtime"
     ],
     "source": {
-      "id": "pkg:github/denoland/deno@v2.0.5",
+      "id": "pkg:github/denoland/deno@v2.0.6",
       "asset": [
         {
           "target": "darwin_arm64",
@@ -4968,7 +4968,7 @@
       "Formatter"
     ],
     "source": {
-      "id": "pkg:golang/golang.org/x/tools@v0.26.0#cmd/goimports"
+      "id": "pkg:golang/golang.org/x/tools@v0.27.0#cmd/goimports"
     },
     "bin": {
       "goimports": "golang:goimports"
@@ -6101,7 +6101,7 @@
       "LSP"
     ],
     "source": {
-      "id": "pkg:pypi/jedi-language-server@0.41.4"
+      "id": "pkg:pypi/jedi-language-server@0.42.0"
     },
     "bin": {
       "jedi-language-server": "pypi:jedi-language-server"
@@ -6125,7 +6125,7 @@
       "Compiler"
     ],
     "source": {
-      "id": "pkg:cargo/jinja-lsp@0.1.83"
+      "id": "pkg:cargo/jinja-lsp@0.1.84"
     },
     "bin": {
       "jinja-lsp": "cargo:jinja-lsp"
@@ -6187,7 +6187,7 @@
       "LSP"
     ],
     "source": {
-      "id": "pkg:golang/github.com/wader/jq-lsp@v0.1.5"
+      "id": "pkg:golang/github.com/wader/jq-lsp@v0.1.6"
     },
     "bin": {
       "jq-lsp": "golang:jq-lsp"
@@ -6258,7 +6258,7 @@
       "DAP"
     ],
     "source": {
-      "id": "pkg:github/microsoft/vscode-js-debug@v1.95.1",
+      "id": "pkg:github/microsoft/vscode-js-debug@v1.95.3",
       "asset": {
         "file": "js-debug-dap-{{version}}.tar.gz"
       },
@@ -7324,7 +7324,7 @@
       "Formatter"
     ],
     "source": {
-      "id": "pkg:npm/markdownlint-cli2@0.14.0"
+      "id": "pkg:npm/markdownlint-cli2@0.15.0"
     },
     "bin": {
       "markdownlint-cli2": "npm:markdownlint-cli2"
@@ -8923,7 +8923,7 @@
       "LSP"
     ],
     "source": {
-      "id": "pkg:github/japhib/pico8-ls@ec23ba144cc7a15447ba2eaddf2f50b31af0935b",
+      "id": "pkg:github/japhib/pico8-ls@cb16048f3dffba7dec26c01e270be5d37f54a785",
       "build": {
         "run": "npm install\nnpm run compile\nnpm install --production\n"
       }
@@ -9509,7 +9509,7 @@
       "LSP"
     ],
     "source": {
-      "id": "pkg:github/mtshiba/pylyzer@v0.0.69",
+      "id": "pkg:github/mtshiba/pylyzer@v0.0.70",
       "asset": [
         {
           "target": "darwin_arm64",
@@ -11359,7 +11359,7 @@
       "LSP"
     ],
     "source": {
-      "id": "pkg:gem/sorbet@0.5.11641",
+      "id": "pkg:gem/sorbet@0.5.11645",
       "supported_platforms": [
         "unix"
       ]
@@ -11853,7 +11853,7 @@
       "LSP"
     ],
     "source": {
-      "id": "pkg:npm/svelte-language-server@0.17.2",
+      "id": "pkg:npm/svelte-language-server@0.17.4",
       "extra_packages": [
         "typescript-svelte-plugin"
       ]
@@ -12435,7 +12435,7 @@
       "Linter"
     ],
     "source": {
-      "id": "pkg:github/terraform-linters/tflint@v0.53.0",
+      "id": "pkg:github/terraform-linters/tflint@v0.54.0",
       "asset": [
         {
           "target": "darwin_x64",
@@ -12652,7 +12652,7 @@
       "Compiler"
     ],
     "source": {
-      "id": "pkg:github/tree-sitter/tree-sitter@v0.24.3",
+      "id": "pkg:github/tree-sitter/tree-sitter@v0.24.4",
       "asset": [
         {
           "target": [
@@ -12953,7 +12953,7 @@
       "LSP"
     ],
     "source": {
-      "id": "pkg:github/tekumara/typos-vscode@v0.1.29",
+      "id": "pkg:github/tekumara/typos-vscode@v0.1.30",
       "asset": [
         {
           "target": "darwin_x64",
@@ -13009,7 +13009,7 @@
       "Linter"
     ],
     "source": {
-      "id": "pkg:github/crate-ci/typos@v1.27.2",
+      "id": "pkg:github/crate-ci/typos@v1.27.3",
       "asset": [
         {
           "target": "darwin_x64",

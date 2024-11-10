@@ -2,6 +2,7 @@
 
 if vim.g.neovide then
     vim.o.guifont = "Fira Code:h16"
+    vim.g.neovide_refresh_rate = 165
 end
 
 require("config.lazy")

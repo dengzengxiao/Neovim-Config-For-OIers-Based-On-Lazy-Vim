@@ -13,7 +13,7 @@ if &shortmess =~ 'A'
 else
   set shortmess=aoO
 endif
-badd +17 A.cpp
+badd +6 A.cpp
 argglobal
 %argdel
 edit A.cpp
@@ -33,20 +33,12 @@ setlocal fdl=99
 setlocal fml=1
 setlocal fdn=20
 setlocal fen
-10
-normal! zo
-20
-normal! zo
-29
-normal! zo
-44
-normal! zo
-let s:l = 17 - ((16 * winheight(0) + 18) / 36)
+let s:l = 6 - ((5 * winheight(0) + 18) / 36)
 if s:l < 1 | let s:l = 1 | endif
 keepjumps exe s:l
 normal! zt
-keepjumps 17
-normal! 015|
+keepjumps 6
+normal! 0
 tabnext 1
 if exists('s:wipebuf') && len(win_findbuf(s:wipebuf)) == 0 && getbufvar(s:wipebuf, '&buftype') isnot# 'terminal'
   silent exe 'bwipe ' . s:wipebuf

@@ -1,5 +1,11 @@
 return {
     {
+        "LazyVim/LazyVim",
+        opts = {
+            colorscheme = "tokyonight",
+        },
+    },
+    {
         "xeluxee/competitest.nvim",
         dependencies = "MunifTanjim/nui.nvim",
         config = function()
