@@ -24,8 +24,9 @@ Neovide: https://github.com/neovide/neovide
 1. Download .zip file in the latest release
 2. Drag .wezterm.lua to C:\Users\Name\ 
 3. Place nvim and nvim-data folers in C:\Users\Name\AppData\Local and replace the original files
-4. Install the Competitive_Companion_2.56.0.crx browser extension
-5. Customize the extension so that the port is 12345
+4. Run git config --global http.sslVerify false in Administrator terminal
+5. Install the Competitive_Companion_2.56.0.crx browser extension
+6. Customize the extension so that the port is 12345
 
 ## Usage：
 1. Open Wezterm
