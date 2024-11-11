@@ -23,6 +23,8 @@ Neovide: https://github.com/neovide/neovide
 
 将 nvim 和 nvim-data 文件夹放入 C:\Users\Name\AppData\Local 下，并替换原来的文件
 
+在管理员模式终端中运行 git config --global http.sslVerify false
+
 配置: Competitive Companion：
 
 打开 Edge 拓展中的 “开发者模式”
