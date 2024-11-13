@@ -40,7 +40,7 @@ Neovide: https://github.com/neovide/neovide
 
 导航到你的项目目录
 
-输入 `neovide`
+输入 `neovide` 或 `nvim`
 
 用 `Find File` 或 `f` 打开文件
 
