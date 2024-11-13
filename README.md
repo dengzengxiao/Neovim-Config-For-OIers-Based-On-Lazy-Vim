@@ -33,7 +33,7 @@ Neovide: https://github.com/neovide/neovide
 
 2. Navigate to youor working directory
 
-3. Input `neovide`
+3. Input `neovide` or `nvim`
 
 4. Use `Find File` or `f` to find files
    
