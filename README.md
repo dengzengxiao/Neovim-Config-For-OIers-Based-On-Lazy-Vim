@@ -21,6 +21,8 @@ Neovide: https://github.com/neovide/neovide
 ## Install `Lazyvim, Neovim, Wezterm and Neovide` before use
 
 ## Installation：
+### !!!! run `git config --global --unset http.proxy` and `git config --global --unset https.proxy` and `ipconfig/flushdns` before installing
+
 1. Download .zip file in the latest release
 2. Drag .wezterm.lua to C:\Users\Name\ 
 3. Place nvim and nvim-data folers in C:\Users\Name\AppData\Local and replace the original files
