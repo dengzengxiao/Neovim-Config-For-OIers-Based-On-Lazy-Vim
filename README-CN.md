@@ -16,7 +16,7 @@ Lazyvim: https://github.com/LazyVim/LazyVim
 
 Neovide: https://github.com/neovide/neovide
 
-## 使用前请安装 Lazyvim, Neovim, Wezterm 和 Neovide
+## 使用前请安装 Lazyvim, Neovim, Wezterm, Neovide, Fira Code 和 FiraCode Nerd Font
 
 ## 如何配置：
 .wezterm.lua 为 wezterm 配置文件，放在 C:\Users\Name\ 下
