@@ -2,7 +2,7 @@
 
 ## Now with only C++ support
 
-## Caution: This is only my on config
+## Caution: This is only my own config
 
 [Chinese Version](https://github.com/dengzengxiao/Neovim-Config-For-OIers-Based-On-Lazy-Vim/blob/main/README-CN.md)
 
