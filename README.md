@@ -18,6 +18,10 @@ Lazyvim: https://github.com/LazyVim/LazyVim
 
 Neovide: https://github.com/neovide/neovide
 
+Fira Code: https://github.com/tonsky/FiraCode
+
+FiraCode Nerd Font: https://github.com/ryanoasis/nerd-fonts/releases/download/v3.2.1/FiraCode.zip
+
 ## Install `Lazyvim, Neovim, Wezterm, Neovide, Fira Code and FiraCode Nerd Font` before use
 
 ## Installation：
