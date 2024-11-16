@@ -18,7 +18,7 @@ Lazyvim: https://github.com/LazyVim/LazyVim
 
 Neovide: https://github.com/neovide/neovide
 
-## Install `Lazyvim, Neovim, Wezterm and Neovide` before use
+## Install `Lazyvim, Neovim, Wezterm, Neovide, Fira Code and FiraCode Nerd Font` before use
 
 ## Installation：
 ### !!!! run `git config --global --unset http.proxy` and `git config --global --unset https.proxy` and `ipconfig/flushdns` before installing
