@@ -22,7 +22,7 @@ Fira Code: https://github.com/tonsky/FiraCode
 
 FiraCode Nerd Font: https://github.com/ryanoasis/nerd-fonts/releases/download/v3.2.1/FiraCode.zip
 
-## Install `Lazyvim, Neovim, Wezterm, Neovide, Fira Code and FiraCode Nerd Font` before use
+## Install `Git, Lazygit, Lazyvim, Neovim, Wezterm, Neovide, Fira Code and FiraCode Nerd Font` before use
 
 ## Installation：
 ### Make sure you can access github and git before installation
