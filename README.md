@@ -151,6 +151,7 @@ return {
   ██║     ██║ ███╔╝      ╚██╗ ██╔╝██║██║╚██╔╝██║
   ███████╗██║███████╗     ╚████╔╝ ██║██║ ╚═╝ ██║
   ╚══════╝╚═╝╚══════╝      ╚═══╝  ╚═╝╚═╝     ╚═╝
+            Powered by Kevin with love
       ]]
 
       dashboard.section.header.val = vim.split(logo, "\n")
