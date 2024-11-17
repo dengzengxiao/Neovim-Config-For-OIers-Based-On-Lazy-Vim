@@ -20,14 +20,14 @@ Fira Code: https://github.com/tonsky/FiraCode
 
 FiraCode Nerd Font: https://github.com/ryanoasis/nerd-fonts/releases/download/v3.2.1/FiraCode.zip
 
-## 使用前请安装 Lazyvim, Neovim, Wezterm, Neovide, Fira Code 和 FiraCode Nerd Font
+## 使用前请安装 Git, Lazygit, Lazyvim, Neovim, Wezterm, Neovide, Fira Code 和 FiraCode Nerd Font
 
 ## 如何配置：
+### 注：安装前请确保可以连接到 github 和 git
+
 .wezterm.lua 为 wezterm 配置文件，放在 C:\Users\Name\ 下
 
 将 nvim 和 nvim-data 文件夹放入 C:\Users\Name\AppData\Local 下，并替换原来的文件
-
-在管理员模式终端中运行 git config --global http.sslVerify false
 
 配置: Competitive Companion：
 
