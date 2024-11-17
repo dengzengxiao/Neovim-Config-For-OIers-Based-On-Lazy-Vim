@@ -25,7 +25,7 @@ FiraCode Nerd Font: https://github.com/ryanoasis/nerd-fonts/releases/download/v3
 ## Install `Lazyvim, Neovim, Wezterm, Neovide, Fira Code and FiraCode Nerd Font` before use
 
 ## Installation：
-### !!!! run `git config --global --unset http.proxy` and `git config --global --unset https.proxy` and `ipconfig/flushdns` before installing
+### Make sure you can access github and git before installation
 
 1. Download .zip file in the latest release
 2. Drag .wezterm.lua to C:\Users\Name\ 
