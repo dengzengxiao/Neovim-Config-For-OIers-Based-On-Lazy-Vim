@@ -120,6 +120,8 @@ Use Ctrl + H 和 Ctrl + L (Normal Mode) to switch between windows for the three 
 
 ## Optional: Turn LazyVim to LizVim
 
+`LazyVim Extras` Panel -> Find `ui.alpha` -> Press `x` to enable plugin.
+
 `nvim-data\lazy\alpha-nvim\lua\alpha.lua`:
 ```lua
 return {
