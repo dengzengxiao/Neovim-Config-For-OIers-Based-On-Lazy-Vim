@@ -34,6 +34,10 @@ FiraCode Nerd Font: https://github.com/ryanoasis/nerd-fonts/releases/download/v3
 5. Install the Competitive_Companion_2.56.0.crx browser extension
 6. Customize the extension so that the port is 12345
 
+### If LSP is not working, run :Mason and press X to uninstall clangd
+### Then reinstall clangd by pressing i
+### Then drag the latest release of winlibs.com's compiler into nvim-data/mason/packages
+
 ## Usage：
 1. Open Wezterm
 
