@@ -16,9 +16,15 @@ Lazyvim: https://github.com/LazyVim/LazyVim
 
 Neovide: https://github.com/neovide/neovide
 
-## 使用前请安装 Lazyvim, Neovim, Wezterm 和 Neovide
+Fira Code: https://github.com/tonsky/FiraCode
+
+FiraCode Nerd Font: https://github.com/ryanoasis/nerd-fonts/releases/download/v3.2.1/FiraCode.zip
+
+## 使用前请安装 Git, Lazygit, Lazyvim, Neovim, Wezterm, Neovide, Fira Code 和 FiraCode Nerd Font
 
 ## 如何配置：
+### 注：安装前请确保可以连接到 github 和 git
+
 .wezterm.lua 为 wezterm 配置文件，放在 C:\Users\Name\ 下
 
 将 nvim 和 nvim-data 文件夹放入 C:\Users\Name\AppData\Local 下，并替换原来的文件
@@ -38,7 +44,7 @@ Neovide: https://github.com/neovide/neovide
 
 导航到你的项目目录
 
-输入 `neovide`
+输入 `neovide` 或 `nvim`
 
 用 `Find File` 或 `f` 打开文件
 
@@ -116,6 +122,106 @@ cpp
 这三种操作用 Ctrl + H 和 Ctrl + L (Normal Mode) 来切换窗口
 
 `:CompetiTest receive testcases`   从 `Competitive Companion` 接受样例，端口为 `12345`
+
+## 可选：把 LazyVim 变成 LizVim
+
+`LazyVim Extras` Panel -> 找到 `ui.alpha` -> 按下 `x` 启动插件。
+
+然后修改：
+
+`nvim-data\lazy\alpha-nvim\lua\alpha.lua`:
+```lua
+return {
+
+  { "nvimdev/dashboard-nvim", enabled = false },
+  { "echasnovski/mini.starter", enabled = false },
+  -- Dashboard. This runs when neovim starts, and is what displays
+  -- the "LAZYVIM" banner.
+  {
+    "goolord/alpha-nvim",
+    event = "VimEnter",
+    enabled = true,
+    init = false,
+    opts = function()
+      local dashboard = require("alpha.themes.dashboard")
+      -- local logo = [[
+      --      ██╗      █████╗ ███████╗██╗   ██╗██╗   ██╗██╗███╗   ███╗          Z
+      --      ██║     ██╔══██╗╚══███╔╝╚██╗ ██╔╝██║   ██║██║████╗ ████║      Z    
+      --      ██║     ███████║  ███╔╝  ╚████╔╝ ██║   ██║██║██╔████╔██║   z       
+      --      ██║     ██╔══██║ ███╔╝    ╚██╔╝  ╚██╗ ██╔╝██║██║╚██╔╝██║ z         
+      --      ███████╗██║  ██║███████╗   ██║    ╚████╔╝ ██║██║ ╚═╝ ██║
+      --      ╚══════╝╚═╝  ╚═╝╚══════╝   ╚═╝     ╚═══╝  ╚═╝╚═╝     ╚═╝
+      -- ]]
+
+      local logo = [[
+  ██╗     ██╗███████╗    ██╗   ██╗██╗███╗   ███╗
+  ██║     ██║╚══███╔╝    ██║   ██║██║████╗ ████║
+  ██║     ██║  ███╔╝     ██║   ██║██║██╔████╔██║
+  ██║     ██║ ███╔╝      ╚██╗ ██╔╝██║██║╚██╔╝██║
+  ███████╗██║███████╗     ╚████╔╝ ██║██║ ╚═╝ ██║
+  ╚══════╝╚═╝╚══════╝      ╚═══╝  ╚═╝╚═╝     ╚═╝
+            Powered by Kevin with love
+      ]]
+
+      dashboard.section.header.val = vim.split(logo, "\n")
+      -- stylua: ignore
+      dashboard.section.buttons.val = {
+        dashboard.button("f", " " .. " Find file",       "<cmd> lua LazyVim.pick()() <cr>"),
+        dashboard.button("n", " " .. " New file",        [[<cmd> ene <BAR> startinsert <cr>]]),
+        dashboard.button("r", " " .. " Recent files",    [[<cmd> lua LazyVim.pick("oldfiles")() <cr>]]),
+        dashboard.button("g", " " .. " Find text",       [[<cmd> lua LazyVim.pick("live_grep")() <cr>]]),
+        dashboard.button("c", " " .. " Config",          "<cmd> lua LazyVim.pick.config_files()() <cr>"),
+        dashboard.button("s", " " .. " Restore Session", [[<cmd> lua require("persistence").load() <cr>]]),
+        dashboard.button("x", " " .. " Lazy Extras",     "<cmd> LazyExtras <cr>"),
+        dashboard.button("l", "󰒲 " .. " Lazy",            "<cmd> Lazy <cr>"),
+        dashboard.button("q", " " .. " Quit",            "<cmd> qa <cr>"),
+      }
+      for _, button in ipairs(dashboard.section.buttons.val) do
+        button.opts.hl = "AlphaButtons"
+        button.opts.hl_shortcut = "AlphaShortcut"
+      end
+      dashboard.section.header.opts.hl = "AlphaHeader"
+      dashboard.section.buttons.opts.hl = "AlphaButtons"
+      dashboard.section.footer.opts.hl = "AlphaFooter"
+      dashboard.opts.layout[1].val = 8
+      return dashboard
+    end,
+    config = function(_, dashboard)
+      -- close Lazy and re-open when the dashboard is ready
+      if vim.o.filetype == "lazy" then
+        vim.cmd.close()
+        vim.api.nvim_create_autocmd("User", {
+          once = true,
+          pattern = "AlphaReady",
+          callback = function()
+            require("lazy").show()
+          end,
+        })
+      end
+
+      require("alpha").setup(dashboard.opts)
+
+      vim.api.nvim_create_autocmd("User", {
+        once = true,
+        pattern = "LazyVimStarted",
+        callback = function()
+          local stats = require("lazy").stats()
+          local ms = (math.floor(stats.startuptime * 100 + 0.5) / 100)
+          dashboard.section.footer.val = "⚡ Neovim loaded "
+            .. stats.loaded
+            .. "/"
+            .. stats.count
+            .. " plugins in "
+            .. ms
+            .. "ms"
+          pcall(vim.cmd.AlphaRedraw)
+        end,
+      })
+    end,
+  },
+}
+
+```
 
 更多请参考:
 
