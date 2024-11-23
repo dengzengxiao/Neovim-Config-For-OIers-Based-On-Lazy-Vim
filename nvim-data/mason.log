@@ -32,3 +32,6 @@
 [INFO  2024/11/4 17:44:52] ...m-data/lazy/mason.nvim/lua/mason-core/installer/init.lua:184: Executing installer for Package(name=clangd) {}
 [INFO  2024/11/4 17:44:59] ...m-data/lazy/mason.nvim/lua/mason-core/installer/init.lua:245: Installation succeeded for Package(name=clangd)
 [ERROR 2024/11/10 19:53:03] ...ta/lazy/mason.nvim/lua/mason-registry/sources/github.lua:146: Failed to install registry GitHubRegistrySource(repo=mason-org/mason-registry). "Failed to download registry archive."
+[ERROR 2024/11/12 18:13:15] ...ta/lazy/mason.nvim/lua/mason-registry/sources/github.lua:146: Failed to install registry GitHubRegistrySource(repo=mason-org/mason-registry). "Failed to download registry archive."
+[ERROR 2024/11/19 18:51:49] ...ta/lazy/mason.nvim/lua/mason-registry/sources/github.lua:146: Failed to install registry GitHubRegistrySource(repo=mason-org/mason-registry). "Failed to download registry archive."
+[ERROR 2024/11/19 18:54:44] ...ta/lazy/mason.nvim/lua/mason-registry/sources/github.lua:146: Failed to install registry GitHubRegistrySource(repo=mason-org/mason-registry). "Failed to download registry archive."

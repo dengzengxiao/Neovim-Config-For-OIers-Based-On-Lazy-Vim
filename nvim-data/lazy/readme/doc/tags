@@ -266,8 +266,3 @@ telescope-fzf-native.nvim-telescope-fzf-native-nvim	telescope-fzf-native.nvim.md
 telescope-fzf-native.nvim-telescope-setup-and-configuration	telescope-fzf-native.nvim.md	/## Telescope Setup and Configuration
 telescope-fzf-native.nvim-todo	telescope-fzf-native.nvim.md	/### TODO
 telescope-fzf-native.nvim-vim-plug	telescope-fzf-native.nvim.md	/#### vim-plug
-vim-deep-space-deep-space	vim-deep-space.md	/# Deep Space
-vim-deep-space-installation	vim-deep-space.md	/## Installation
-vim-deep-space-options	vim-deep-space.md	/### Options
-vim-deep-space-vim-airline	vim-deep-space.md	/### Vim Airline
-vim-deep-space-vim-lightline	vim-deep-space.md	/### Vim Lightline

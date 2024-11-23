@@ -13,10 +13,10 @@ if &shortmess =~ 'A'
 else
   set shortmess=aoO
 endif
-badd +6 A.cpp
+badd +8 ~/AppData/Local/nvim-data/lazy/LazyVim/NEWS.md
 argglobal
 %argdel
-edit A.cpp
+edit ~/AppData/Local/nvim-data/lazy/LazyVim/NEWS.md
 wincmd t
 let s:save_winminheight = &winminheight
 let s:save_winminwidth = &winminwidth
@@ -33,11 +33,17 @@ setlocal fdl=99
 setlocal fml=1
 setlocal fdn=20
 setlocal fen
-let s:l = 6 - ((5 * winheight(0) + 18) / 36)
+1
+normal! zo
+3
+normal! zo
+5
+normal! zo
+let s:l = 8 - ((7 * winheight(0) + 19) / 39)
 if s:l < 1 | let s:l = 1 | endif
 keepjumps exe s:l
 normal! zt
-keepjumps 6
+keepjumps 8
 normal! 0
 tabnext 1
 if exists('s:wipebuf') && len(win_findbuf(s:wipebuf)) == 0 && getbufvar(s:wipebuf, '&buftype') isnot# 'terminal'
