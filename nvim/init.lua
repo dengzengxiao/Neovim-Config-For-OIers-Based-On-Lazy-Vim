@@ -1,7 +1,7 @@
 -- bootstrap lazy.nvim, LazyVim and your plugins
 
 if vim.g.neovide then
-    vim.o.guifont = "JetBrainsMono NF:h14"
+    vim.o.guifont = "CommitMono Nerd Font:h14"
     vim.g.neovide_refresh_rate = 165
 end
 

@@ -1,14 +1,14 @@
-[19:28:48.453][info] [#0:C:/Users/Shawn/AppData/Local/nvim-data/mason/packages/lua-language-server\main.lua:68]: Lua Lsp startup, root: 	C:/Users/Shawn/AppData/Local/nvim-data/mason/packages/lua-language-server
-[19:28:48.455][info] [#0:C:/Users/Shawn/AppData/Local/nvim-data/mason/packages/lua-language-server\main.lua:69]: ROOT:	C:/Users/Shawn/AppData/Local/nvim-data/mason/packages/lua-language-server
-[19:28:48.455][info] [#0:C:/Users/Shawn/AppData/Local/nvim-data/mason/packages/lua-language-server\main.lua:70]: LOGPATH:	C:/Users/Shawn/AppData/Local/nvim-data/mason/packages/lua-language-server/log
-[19:28:48.455][info] [#0:C:/Users/Shawn/AppData/Local/nvim-data/mason/packages/lua-language-server\main.lua:71]: METAPATH:	C:/Users/Shawn/AppData/Local/nvim-data/mason/packages/lua-language-server/meta
-[19:28:48.456][info] [#0:C:/Users/Shawn/AppData/Local/nvim-data/mason/packages/lua-language-server\main.lua:72]: VERSION:	3.12.0
-[19:28:48.523][info] [#0:script\proto\proto.lua:260]: Listen Mode: stdio
-[19:28:48.523][info] [#0:script\service\service.lua:145]: 
+[22:12:41.114][info] [#0:C:/Users/Shawn/AppData/Local/nvim-data/mason/packages/lua-language-server\main.lua:68]: Lua Lsp startup, root: 	C:/Users/Shawn/AppData/Local/nvim-data/mason/packages/lua-language-server
+[22:12:41.115][info] [#0:C:/Users/Shawn/AppData/Local/nvim-data/mason/packages/lua-language-server\main.lua:69]: ROOT:	C:/Users/Shawn/AppData/Local/nvim-data/mason/packages/lua-language-server
+[22:12:41.115][info] [#0:C:/Users/Shawn/AppData/Local/nvim-data/mason/packages/lua-language-server\main.lua:70]: LOGPATH:	C:/Users/Shawn/AppData/Local/nvim-data/mason/packages/lua-language-server/log
+[22:12:41.115][info] [#0:C:/Users/Shawn/AppData/Local/nvim-data/mason/packages/lua-language-server\main.lua:71]: METAPATH:	C:/Users/Shawn/AppData/Local/nvim-data/mason/packages/lua-language-server/meta
+[22:12:41.115][info] [#0:C:/Users/Shawn/AppData/Local/nvim-data/mason/packages/lua-language-server\main.lua:72]: VERSION:	3.13.2
+[22:12:41.148][info] [#0:script\proto\proto.lua:260]: Listen Mode: stdio
+[22:12:41.148][info] [#0:script\service\service.lua:145]: 
 ========= Medical Examination Report =========
     --------------- Memory ---------------
-        Total: 2.247 MB
-        # 00 : 2.247 MB
+        Total: 2.251 MB
+        # 00 : 2.251 MB
         # 01 : 0.000 MB
         # 02 : 0.000 MB
         # 03 : 0.000 MB
@@ -26,7 +26,7 @@
         Holdon:   0
         Waiting:  0
 ==============================================
-[19:28:48.642][info] [#0:script\client.lua:657]: Client init	{
+[22:12:41.263][info] [#0:script\client.lua:657]: Client init	{
   capabilities = {
     general = {
       positionEncodings = { "utf-16" }
@@ -214,17 +214,17 @@
     version = "0.10.2+g8b9864200"
   },
   initializationOptions = {},
-  processId = 25404,
-  rootPath = "D:\\Shawn\\Respositories\\Neovim-Config-For-OIers-Based-On-Lazy-Vim",
-  rootUri = "file:///D:/Shawn/Respositories/Neovim-Config-For-OIers-Based-On-Lazy-Vim",
+  processId = 14152,
+  rootPath = "C:\\Users\\Shawn\\AppData\\Local\\nvim",
+  rootUri = "file:///C:/Users/Shawn/AppData/Local/nvim",
   trace = "off",
   workDoneToken = "1",
   workspaceFolders = { {
-      name = "D:/Shawn/Respositories/Neovim-Config-For-OIers-Based-On-Lazy-Vim",
-      uri = "file:///D:/Shawn/Respositories/Neovim-Config-For-OIers-Based-On-Lazy-Vim"
+      name = "C:/Users/Shawn/AppData/Local/nvim",
+      uri = "file:///C:/Users/Shawn/AppData/Local/nvim"
     } }
 }
-[19:28:48.644][info] [#0:script\language.lua:137]: VSC language: nil
-[19:28:48.645][info] [#0:script\language.lua:138]: LS  language: en-us
-[19:28:48.645][info] [#0:script\workspace\workspace.lua:38]: Workspace init root: 	file:///D:/Shawn/Respositories/Neovim-Config-For-OIers-Based-On-Lazy-Vim
-[19:28:48.645][info] [#0:script\workspace\workspace.lua:42]: Log path: 	C:/Users/Shawn/AppData/Local/nvim-data/mason/packages/lua-language-server/log/file_D_Shawn_Respositories_Neovim-Config-For-OIers-Based-On-Lazy-Vim.log
+[22:12:41.263][info] [#0:script\language.lua:137]: VSC language: nil
+[22:12:41.263][info] [#0:script\language.lua:138]: LS  language: en-us
+[22:12:41.263][info] [#0:script\workspace\workspace.lua:38]: Workspace init root: 	file:///C:/Users/Shawn/AppData/Local/nvim
+[22:12:41.263][info] [#0:script\workspace\workspace.lua:42]: Log path: 	C:/Users/Shawn/AppData/Local/nvim-data/mason/packages/lua-language-server/log/file_C_Users_Shawn_AppData_Local_nvim.log

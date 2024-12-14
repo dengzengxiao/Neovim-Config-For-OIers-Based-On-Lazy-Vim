@@ -3,6 +3,39 @@
 ## Unreleased
 <!-- Add all new changes here. They will be moved under a version at release -->
 
+## 3.13.2
+`2024-11-21`
+* `CHG` fulfill zh-cn translations
+* `FIX` Add missing `errs ~= nil` checks to script/vm/type checkTableShape
+
+## 3.13.1
+`2024-11-13`
+* `FIX` Incorrect type check in some case
+
+## 3.13.0
+`2024-11-13`
+* `NEW` Setting: `Lua.type.inferTableSize`: A Small Table array can be infered
+* `NEW` Add custom repository support for addonManager. New configuration setting: `Lua.addonManager.repositoryBranch` and `Lua.addonManager.repositoryPath`
+* `NEW` Infer function parameter types when the function is used as an callback argument and that argument has a `fun()` annotation. Enable with `Lua.type.inferParamType` setting. [#2695](https://github.com/LuaLS/lua-language-server/pull/2695)
+  ```lua
+  ---@param callback fun(a: integer)
+  function register(callback) end
+
+  local function callback(a) end  --> a: integer
+  register(callback)
+  ```
+* `CHG` Basic types allow contravariance
+  ```lua
+  ---@class int32: integer
+
+  ---@type integer
+  local n
+
+  ---@type int32
+  local a = n
+  ```
+* `FIX` Improve type narrow with **literal alias type** during completion and signature help
+
 ## 3.12.0
 `2024-10-30`
 * `NEW` Support importing `enum` through class name suffix matching in quick fixes, allowing the import of `enum` from `table.table.enum; return table`.
