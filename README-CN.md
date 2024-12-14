@@ -16,18 +16,16 @@ Lazyvim: https://github.com/LazyVim/LazyVim
 
 Neovide: https://github.com/neovide/neovide
 
-Fira Code: https://github.com/tonsky/FiraCode
-
-FiraCode Nerd Font: https://github.com/ryanoasis/nerd-fonts/releases/download/v3.2.1/FiraCode.zip
-
-## 使用前请安装 Git, Lazygit, Lazyvim, Neovim, Wezterm, Neovide, Fira Code 和 FiraCode Nerd Font
+## 使用前请安装 Git, Lazygit, Lazyvim, Neovim, Wezterm, Neovide, Commit Mono 和 CommitMono Nerd Font
 
 ## 如何配置：
 ### 注：安装前请确保可以连接到 github 和 git
 
-.wezterm.lua 为 wezterm 配置文件，放在 C:\Users\Name\ 下
-
 将 nvim 和 nvim-data 文件夹放入 C:\Users\Name\AppData\Local 下，并替换原来的文件
+
+右键桌面上的 `Neovide` 图标，选择属性
+
+把启动目录改成你的工作目录
 
 配置: Competitive Companion：
 
@@ -40,9 +38,6 @@ FiraCode Nerd Font: https://github.com/ryanoasis/nerd-fonts/releases/download/v3
 快捷键：Edge 拓展 -> 键盘快捷方式 -> 往下翻找到 Competitive Companion，输入快捷键
 
 ## 使用：
-打开 Wezterm
-
-导航到你的项目目录
 
 输入 `neovide` 或 `nvim`
 
@@ -111,7 +106,7 @@ cpp
 └─ ...
 ```
 
-`:CompetiTest run` 		运行 testcases 左边的用 j 和 k 切换样例
+`:CompetiTest run` 		运行 testcases 左边的用 j 和 k 切换样例  (快捷键：F11)
 
 `:CompetiTest add_testcase` 	新建样例
 
@@ -121,7 +116,7 @@ cpp
 
 这三种操作用 Ctrl + H 和 Ctrl + L (Normal Mode) 来切换窗口
 
-`:CompetiTest receive testcases`   从 `Competitive Companion` 接受样例，端口为 `12345`
+`:CompetiTest receive testcases`   从 `Competitive Companion` 接受样例，端口为 `12345` (快捷键：Ctrl + Shift + x)
 
 ## 可选：把 LazyVim 变成 LizVim
 
