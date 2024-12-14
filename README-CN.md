@@ -16,6 +16,10 @@ Lazyvim: https://github.com/LazyVim/LazyVim
 
 Neovide: https://github.com/neovide/neovide
 
+Commit Mono: https://commitmono.com/
+
+CommitMono Nerd Font: https://github.com/ryanoasis/nerd-fonts/releases/download/v3.3.0/CommitMono.zip
+
 ## 使用前请安装 Git, Lazygit, Lazyvim, Neovim, Wezterm, Neovide, Commit Mono 和 CommitMono Nerd Font
 
 ## 如何配置：
