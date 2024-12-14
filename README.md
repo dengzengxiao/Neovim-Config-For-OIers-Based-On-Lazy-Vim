@@ -107,7 +107,7 @@ cpp
 └─ ...
 ```
 
-`:CompetiTest run` 		Run testcases, use j and k to switch testcases   Hotkey: F11
+`:CompetiTest run` 		Run testcases, use j and k to switch testcases (Hotkey: F11)
 
 `:CompetiTest add_testcase` 	Create testcase
 
@@ -117,7 +117,7 @@ cpp
 
 Use Ctrl + H 和 Ctrl + L (Normal Mode) to switch between windows for the three commands listed above
 
-`:CompetiTest receive testcases`   Receive testcases from `Competitive Companion` ，port is `12345`    Hotkey: Ctrl + Shift + x
+`:CompetiTest receive testcases`   Receive testcases from `Competitive Companion` ，port is `12345`    (Hotkey: Ctrl + Shift + x)
 
 ## Optional: Turn LazyVim to LizVim
 
