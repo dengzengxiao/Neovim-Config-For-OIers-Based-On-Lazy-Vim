@@ -22,32 +22,29 @@ Fira Code: https://github.com/tonsky/FiraCode
 
 FiraCode Nerd Font: https://github.com/ryanoasis/nerd-fonts/releases/download/v3.2.1/FiraCode.zip
 
-## Install `Git, Lazygit, Lazyvim, Neovim, Wezterm, Neovide, JetBrains Mono and JetBrainsMono Nerd Font` before use
+## Install `Git, Lazygit, Lazyvim, Neovim, Wezterm, Neovide, Commit Mono and CommitMono Nerd Font` before use
 
 ## Installation：
 ### Make sure you can access github and git before installation
 
 1. Download .zip file in the latest release
-2. Drag .wezterm.lua to C:\Users\Name\ 
-3. Place nvim and nvim-data folers in C:\Users\Name\AppData\Local and replace the original files
-4. Run git config --global http.sslVerify false in Administrator terminal
-5. Install the Competitive_Companion_2.56.0.crx browser extension
-6. Customize the extension so that the port is 12345
+2. Place nvim and nvim-data folers in C:\Users\Name\AppData\Local and replace the original files
+3. Run git config --global http.sslVerify false in Administrator terminal
+4. Install the Competitive_Companion_2.56.0.crx browser extension
+5. Customize the extension so that the port is 12345
+6. Right click the `Neovide` icon on your desktop and choose "Attibutes"
+7. Set the launch directory to your working directory
 
 ### If LSP is not working, run :Mason and press X to uninstall clangd
 ### Then reinstall clangd by pressing i
 ### Then drag the latest release of winlibs.com's compiler into nvim-data/mason/packages
 
 ## Usage：
-1. Open Wezterm
+1. Open Neovide
 
-2. Navigate to youor working directory
-
-3. Input `neovide` or `nvim`
-
-4. Use `Find File` or `f` to find files
+2. Use `Find File` or `f` to find files
    
-5. Happy Coding!
+3. Happy Coding!
    
 ## Useful Hotkeys：
 Caution: You have to be in "Normal Mode" to do use these hotkeys
@@ -110,7 +107,7 @@ cpp
 └─ ...
 ```
 
-`:CompetiTest run` 		Run testcases, use j and k to switch testcases
+`:CompetiTest run` 		Run testcases, use j and k to switch testcases   Hotkey: F11
 
 `:CompetiTest add_testcase` 	Create testcase
 
@@ -120,7 +117,7 @@ cpp
 
 Use Ctrl + H 和 Ctrl + L (Normal Mode) to switch between windows for the three commands listed above
 
-`:CompetiTest receive testcases`   Receive testcases from `Competitive Companion` ，port is `12345`
+`:CompetiTest receive testcases`   Receive testcases from `Competitive Companion` ，port is `12345`    Hotkey: Ctrl + Shift + x
 
 ## Optional: Turn LazyVim to LizVim
 
