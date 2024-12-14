@@ -18,9 +18,9 @@ Lazyvim: https://github.com/LazyVim/LazyVim
 
 Neovide: https://github.com/neovide/neovide
 
-Fira Code: https://github.com/tonsky/FiraCode
+Commit Mono: https://commitmono.com/
 
-FiraCode Nerd Font: https://github.com/ryanoasis/nerd-fonts/releases/download/v3.2.1/FiraCode.zip
+CommitMono Nerd Font: https://github.com/ryanoasis/nerd-fonts/releases/download/v3.3.0/CommitMono.zip
 
 ## Install `Git, Lazygit, Lazyvim, Neovim, Wezterm, Neovide, Commit Mono and CommitMono Nerd Font` before use
 
