@@ -22,7 +22,7 @@ Commit Mono: https://commitmono.com/
 
 CommitMono Nerd Font: https://github.com/ryanoasis/nerd-fonts/releases/download/v3.3.0/CommitMono.zip
 
-## Install `Git, Lazygit, Lazyvim, Neovim, Wezterm, Neovide, Commit Mono and CommitMono Nerd Font` before use
+## Install `Git, Lazygit, fd, ripgrep, fzf, Lazyvim, Neovim, Wezterm, Neovide, Commit Mono and CommitMono Nerd Font` before use
 
 ## Installation：
 ### Make sure you can access github and git before installation
