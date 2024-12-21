@@ -23,23 +23,49 @@ CommitMono Nerd Font: https://github.com/ryanoasis/nerd-fonts/releases/download/
 ## 使用前请安装 Commit Mono 和 CommitMono Nerd Font
 
 ## 如何配置：
-### 注：安装前请确保可以连接到 github 和 git
+### 注：安装前请确保可以连接到 github 和 git 并有一个 C/C++ 编译器 (最好是 winlibs)
 
-将 nvim 和 nvim-data 文件夹放入 C:\Users\Name\AppData\Local 下，并替换原来的文件
+下载 Releases 中的 `InstallLazyvimWithOIerConfig.ps1`
 
-右键桌面上的 `Neovide` 图标，选择属性
+将文件中的 `Administrator` 替换成你的 Windows 用户名
 
-把启动目录改成你的工作目录
+在当前目录下运行管理员 Powershell, 并输入 `Set-ExecutionPolicy Unrestricted`，选择 Yes
+
+输入 `.\InstallLazyvimWithOIerConfig.ps1` 并等待安装完成
+
+右键桌面上的 Neovide 图标并将启动目录设为你的工作目录
+
+注：如果你想使用这套配置，将你的工作目录设成这样：
+
+```
+cpp
+
+├─executables 				// 可执行文件
+
+├─testcases				// testcases 数据
+
+├─A.cpp
+
+└─ ...
+```
 
 配置: Competitive Companion：
 
-打开 Edge 拓展中的 “开发者模式”
+如果你使用 Edge/Chrome:
 
-将目录中的 Competitive_Companion_2.56.0.crx 拖入 Edge
+  打开 Edge/Chome 拓展中的 “开发者模式”
 
-打开拓展选项，将 Custom ports 改为 12345
+  将目录中的 Competitive_Companion_2.56.0.crx 拖入 Edge
 
-快捷键：Edge 拓展 -> 键盘快捷方式 -> 往下翻找到 Competitive Companion，输入快捷键
+  打开拓展选项，将 Custom ports 改为 12345
+
+  快捷键：Edge 拓展 -> 键盘快捷方式 -> 往下翻找到 Competitive Companion，输入快捷键
+
+如果你使用 FireFox:
+
+  打开插件商店，搜索 `Competitive Companion`
+
+  打开拓展选项，将 Custom ports 改为 12345
 
 ## 使用：
 
