@@ -26,18 +26,34 @@ CommitMono Nerd Font: https://github.com/ryanoasis/nerd-fonts/releases/download/
 
 ## Installation：
 ### Make sure you can access github and git before installation
+### Also make sure you have a C/C++ Compiler in your computer PATH (perferably winlibs)
 
-1. Download .zip file in the latest release
-2. Place nvim and nvim-data folers in C:\Users\Name\AppData\Local and replace the original files
-3. Run git config --global http.sslVerify false in Administrator terminal
-4. Install the Competitive_Companion_2.56.0.crx browser extension
-5. Customize the extension so that the port is 12345
-6. Right click the `Neovide` icon on your desktop and choose "Attibutes"
-7. Set the launch directory to your working directory
+1. Download `InstallLazyvimWithOIerConfig.ps1` in Releases
+2. Use Notepad to open the file
+3. Use your Windows Username to replace `Administrator` in the file
+4. Close Notepad and run Administrator Powershell in the current directory (where the .ps1 file is in)
+5. Run the command: `Set-ExecutionPolicy Unrestricted` and choose "Yes"
+6. Run the command: `.\InstallLazyvimWithOIerConfig.ps1`
+7. Wait till the installation is complete
+8. Right click the `Neovide` icon on your Desktop and choose `Properties`
+9. Set the "Launch directory" to your working directory
+10. Set your working directory like this:
+```
+cpp
 
-### If LSP is not working, run :Mason and press X to uninstall clangd
-### Then reinstall clangd by pressing i
-### Then drag the latest release of winlibs.com's compiler into nvim-data/mason/packages
+├─executables
+
+├─testcases
+
+├─A.cpp
+
+└─ ...
+```
+11. Launch Neovide
+12. After it finished cloning, press Shift + S twice
+13. Press q twice to exit Neovim
+14. Download the winlibs.com MinGW(with clangd) to
+15. Decompress the file and copy the files inside `mingw64` to 
 
 ## Usage：
 1. Open Neovide
@@ -98,9 +114,9 @@ Caution: if you use my config, your file tree should be like this:
 ```
 cpp
 
-├─executables 				// 可执行文件
+├─executables
 
-├─testcases				// testcases 数据
+├─testcases
 
 ├─A.cpp
 
