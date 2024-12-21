@@ -52,10 +52,22 @@ cpp
 11. Launch Neovide
 12. After it finished cloning, press Shift + S twice
 13. Press q twice to exit Neovim
-14. Download the winlibs.com MinGW(with clangd)
-15. Relaunch Neovide and wait till the lazy.nvim finish cloning, and then press q
-17. Type `:MasonInstall clangd`
-18. 
+14. Relaunch Neovide and wait till the lazy.nvim finish cloning, and then press q
+15. Type `:MasonInstall clangd`
+16. Exit Neovide
+17. Download the winlibs.com MinGW(with clangd) and decompress the file
+18. Copy the files in `mingw64` to nvim-data/mason/packages/clangd/clangd_<version> and replace the original compiler
+
+#### Optional: Competitive Companion
+
+If you use Edge/Chome:
+1. Open `Extensions` and turn on Developer mode
+2. Drag the .crx file in `Desktop\config\Neovim-Config-For-OIers-Based-On-Lazy-Vim` to your browser
+3. Open `Extension settings` and set `Custom ports` to 12345
+
+If you use Firefox:
+1. Download `Competitive Companion` in the extension store
+2. Open `Extension settings` and set `Custom ports` to 12345
 
 ## Usage：
 1. Open Neovide
@@ -133,7 +145,7 @@ cpp
 
 `:CompetiTest edit_testcase`	Edit testcase
 
-Use Ctrl + H 和 Ctrl + L (Normal Mode) to switch between windows for the three commands listed above
+Use Ctrl + H and Ctrl + L (Normal Mode) to switch between windows for the three commands listed above
 
 `:CompetiTest receive testcases`   Receive testcases from `Competitive Companion` ，port is `12345`    (Hotkey: Ctrl + Shift + x)
 
