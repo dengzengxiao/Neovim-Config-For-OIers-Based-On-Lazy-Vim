@@ -52,8 +52,10 @@ cpp
 11. Launch Neovide
 12. After it finished cloning, press Shift + S twice
 13. Press q twice to exit Neovim
-14. Download the winlibs.com MinGW(with clangd) to
-15. Decompress the file and copy the files inside `mingw64` to 
+14. Download the winlibs.com MinGW(with clangd)
+15. Relaunch Neovide and wait till the lazy.nvim finish cloning, and then press q
+17. Type `:MasonInstall clangd`
+18. 
 
 ## Usage：
 1. Open Neovide
