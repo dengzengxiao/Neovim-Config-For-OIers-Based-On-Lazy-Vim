@@ -56,7 +56,7 @@ cpp
 15. Type `:MasonInstall clangd`
 16. Exit Neovide
 17. Download the winlibs.com MinGW(with clangd) and decompress the file
-18. Copy the files in `mingw64` to nvim-data/mason/packages/clangd/clangd_<version> and replace the original compiler
+18. Copy the files in `mingw64` to `nvim-data/mason/packages/clangd/clangd_<version>` and replace the original compiler
 
 #### Optional: Competitive Companion
 
