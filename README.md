@@ -35,9 +35,7 @@ CommitMono Nerd Font: https://github.com/ryanoasis/nerd-fonts/releases/download/
 5. Run the command: `Set-ExecutionPolicy Unrestricted` and choose "Yes"
 6. Run the command: `.\InstallLazyvimWithOIerConfig.ps1`
 7. Wait till the installation is complete
-8. Right click the `Neovide` icon on your Desktop and choose `Properties`
-9. Set the "Launch directory" to your working directory
-10. Set your working directory like this:
+8. Set your working directory like this:
 ```
 cpp
 
@@ -49,12 +47,12 @@ cpp
 
 └─ ...
 ```
-11. Launch Neovide
-12. After it finished cloning, press Shift + S twice
-13. Press q twice to exit Neovim
-14. Relaunch Neovide and wait till the lazy.nvim finish cloning, and then press q
-15. Type `:MasonInstall clangd`
-16. Exit Neovide
+9. Navigate to your woking directory in CMD and enter `nvim`
+10. After it finished cloning, press Shift + S twice
+11. Press q twice to exit Neovim
+12. Relaunch Neovim and wait till the lazy.nvim finish cloning, and then press q
+13. Type `:MasonInstall clangd`
+14. Press q to exit Neovim
 17. Download the winlibs.com MinGW(with clangd) and decompress the file
 18. Copy the files in `mingw64` to `nvim-data/mason/packages/clangd/clangd_<version>` and replace the original compiler
 
@@ -70,7 +68,7 @@ If you use Firefox:
 2. Open `Extension settings` and set `Custom ports` to 12345
 
 ## Usage：
-1. Open Neovide
+1. Open Neovim in command shell
 
 2. Use `Find File` or `f` to find files
    
