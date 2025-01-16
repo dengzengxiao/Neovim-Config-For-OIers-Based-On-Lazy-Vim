@@ -24,7 +24,7 @@ CommitMono Nerd Font: https://github.com/ryanoasis/nerd-fonts/releases/download/
 
 JetBrainsMono Nerd Font: https://github.com/ryanoasis/nerd-fonts/releases/download/v3.3.0/JetBrainsMono.zip
 
-## Install `Commit Mono and CommitMono Nerd Font` before use
+Install the fonts above before installing!
 
 ## Installation：
 ### Make sure you can access github and git before installation
