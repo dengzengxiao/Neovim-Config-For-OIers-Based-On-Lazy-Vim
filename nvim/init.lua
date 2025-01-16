@@ -12,7 +12,7 @@ if vim.g.neovide then
         "%x",
         vim.api.nvim_get_hl(0, {id=vim.api.nvim_get_hl_id_by_name("Normal")}).bg
     )
-    vim.g.neovide_title_text_color = "pink"
+    vim.g.neovide_title_text_color = "white"
 end
 
 require("config.lazy")
