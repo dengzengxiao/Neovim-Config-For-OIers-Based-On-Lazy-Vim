@@ -3,8 +3,8 @@
 if vim.g.neovide then
     vim.o.guifont = "JetBrainsMono Nerd Font:h12"
     vim.g.neovide_refresh_rate = 165
-    vim.g.neovide_transparency = 0.8
-    vim.g.neovide_normal_opacity = 0.8
+    -- vim.g.neovide_transparency = 0.8
+    -- vim.g.neovide_normal_opacity = 0.8
     vim.g.neovide_theme = 'dark'
     vim.g.neovide_cursor_vfx_mode = "railgun"
     vim.g.neovide_cursor_vfx_particle_density = 20.0
